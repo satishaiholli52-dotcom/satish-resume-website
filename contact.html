@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satish Aiholli | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+        <p class="header-subtitle">Let's Connect</p>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="biodata.html">Bio-data</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <h2>Get in Touch</h2>
+
+            <p>
+                Thank you for visiting my website.
+                Feel free to reach out to me by email.
+            </p>
+        </section>
+
+        <section>
+            <h2>Contact Information</h2>
+
+            <p><strong>Name:</strong> Satish Aiholli</p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:satishaiholli25@gmail.com">
+                    satishaiholli25@gmail.com
+                </a>
+            </p>
+
+            <p><strong>Location:</strong> Vijayapura, Karnataka, India</p>
+
+            <a class="button" href="mailto:satishaiholli25@gmail.com">
+                Email Me
+            </a>
+        </section>
+
+        <section>
+            <h2>Send a Message</h2>
+
+            <p>
+                This demonstration form shows how HTML forms
+                and JavaScript validation work.
+            </p>
+
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message here"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="button">
+                    Submit Message
+                </button>
+
+                <p id="formStatus" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Satish Aiholli. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
